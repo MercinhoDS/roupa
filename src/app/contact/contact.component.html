@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8  text-center">
+            <h1>Formulário</h1>
+        </div>
+    </div>
+</div>
+
+<form (ngSubmit)="submit()" [formGroup]="contato" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <label for="nome">Nome</label>
+                <input type="text" placeholder="Digite Nome" class="form-control" formControlName="nome">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <label for="telefone">Telefone</label>
+                <input type="text" placeholder="Digite Telefone" class="form-control" formControlName="telefone">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <label for="email">Email</label>
+                <input type="text" placeholder="Digite Email" class="form-control" formControlName="email">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+               
+                <input type="submit" value="{{btnEnviar}}">
+            </div>
+        </div>
+
+
+
+    </div>
+   
+</form>

@@ -1,0 +1,19 @@
+{
+    "produto":[
+        {
+            "nome":"Blusa",
+            "preco":50,
+            "imagem":"assets/img/1.png"
+        },
+        {
+            "nome":"Vestido",
+            "preco":100,
+            "imagem":"assets/img/2.png"
+        },
+        {
+            "nome":"Calça",
+            "preco":150,
+            "imagem":"assets/img/3.png"
+        }
+    ]
+}
