@@ -15,7 +15,7 @@ export class ContactComponent {
   ngOnInit() : void{
     this.contato = new FormGroup({
       id: new FormControl(''),
-      nome: new FormControl(''),
+      nome: new FormControl('', [Validators.required]),
       telefone: new FormControl(''),
       email: new FormControl('')
     })
@@ -35,13 +35,11 @@ export class ContactComponent {
 
 
     submit(){
-     
-      console.log("Formulário Enviado!");
+      if(this.contato.invalid){
+        return;
+      }
+
+      console.log(this.contato.value);
     }
-
-
-
-
- 
 
 }
