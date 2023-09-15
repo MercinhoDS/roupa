@@ -14,6 +14,7 @@ import { PrivacyComponent } from './privacy/privacy.component';
 import { ProductComponent } from './product/product.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,

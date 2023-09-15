@@ -1,1 +1,19 @@
-<p>product works!</p>
+<div class="container titulo">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1>Nosso Produtos</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container produtos">
+    <div class="row">
+        <div *ngFor="let roupa of roupas" class="col-md-3">
+            <img [src]="roupa.imagem">
+            <h3>{{roupa.nome}}</h3>
+            <h5>Preço: R$ {{roupa.preco}}</h5>
+            
+        </div>
+    </div>
+</div>
+
