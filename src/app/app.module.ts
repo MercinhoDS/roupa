@@ -10,6 +10,8 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import { E404Component } from './e404/e404.component';
+import { PrivacyComponent } from './privacy/privacy.component';
+import { ProductComponent } from './product/product.component';
 
 
 @NgModule({
@@ -19,6 +21,8 @@ import { E404Component } from './e404/e404.component';
     AboutComponent,
     ContactComponent,
     E404Component,
+    PrivacyComponent,
+    ProductComponent,
   ],
   imports: [
     BrowserModule,
