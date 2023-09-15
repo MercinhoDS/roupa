@@ -25,12 +25,12 @@ li#privacy:hover{
 
 #p{
     width: 100%;
-    height: 900px;
+    height: 850px;
     /*background-color: blue;*/
 }
 #bordap{
     width: 1200px;
-    height: 900px;
+    height: 100%;
  /*   border: 1px solid red;*/
     margin: auto;
 }
