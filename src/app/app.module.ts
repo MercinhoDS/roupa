@@ -6,8 +6,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+
 import { ContactComponent } from './contact/contact.component';
-import {FormGroup, FormControl, Validators} from '@angular/forms';
+import {ReactiveFormsModule} from '@angular/forms';
+import { E404Component } from './e404/e404.component';
 
 
 @NgModule({
@@ -16,14 +18,13 @@ import {FormGroup, FormControl, Validators} from '@angular/forms';
     HomeComponent,
     AboutComponent,
     ContactComponent,
+    E404Component,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormGroup,
-    FormControl,
-    Validators,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

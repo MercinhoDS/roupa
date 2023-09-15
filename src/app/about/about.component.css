@@ -1,0 +1,43 @@
+/* Defina a animação */
+@keyframes piscar {
+    0% {
+        opacity: 1; /* Começa completamente visível */
+    }
+    50% {
+        opacity: 0; /* Fica invisível a meio caminho */
+    }
+    100% {
+        opacity: 1; /* Volta a ficar completamente visível */
+    }
+}
+
+/* Aplique a animação ao título */
+h1 {
+    animation: piscar 2s infinite; /* Aplica a animação "piscar" ao título */
+    padding-top: 40px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+h2 {
+ text-align: center;  
+ padding-top: 30px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+#sbn{
+    display: block; 
+    margin: auto;
+    
+}
+
+#txt{
+    font-size: small;
+    font-family: fantasy;
+    width: 800px;
+    margin: auto; 
+    padding-top: 15px;
+    text-align: justify;
+}
+
